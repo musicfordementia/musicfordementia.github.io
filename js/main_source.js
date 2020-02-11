@@ -19,7 +19,7 @@ var currentAssessmentPane = '#VNADSpane';
 
 $(document).ready(function(){
     localStorage.clear();
-    
+
     $(".dp").datepicker({ 
         changeMonth: true,
         changeYear: true,
