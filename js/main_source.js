@@ -23,7 +23,6 @@ $(document).ready(function(){
     $.ajax({
         method: "GET",
         url: "../php/counter.php",
-        dataType: "json"
       });
 
     $(".dp").datepicker({ 
