@@ -20,11 +20,6 @@ var currentAssessmentPane = '#VNADSpane';
 $(document).ready(function(){
     localStorage.clear();
 
-    $.ajax({
-        method: "GET",
-        url: "../php/counter.php",
-      });
-
     $(".dp").datepicker({ 
         changeMonth: true,
         changeYear: true,
