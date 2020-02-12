@@ -617,27 +617,25 @@ function loadCaregiverMusicPrefQs(){
 }
 function loadPatientVNADS(){
     $(".VNADStype").text("Version for the person with dementia");
-    $("#VNADSq1").text("In the last 2 weeks I have had little interest or pleasure in doing things");
-    $("#VNADSq2").text("In the last 2 weeks I have felt down, depressed or hopeless");
-    $("#VNADSq3").text("Often throughout my life I have felt down, depressed or hopeless");
-    $("#VNADSq4").text("In the past 2 weeks I have felt so restless it is hard to sit still");
-    $("#VNADSq5").text("I have often had periods in my life where I felt so restless it was hard to sit still");
-    $("#VNADSq6").text("Sometimes I feel so upset that I want to hit or kick something");
-    $("#VNADSq7").text("Sometimes I feel so stirred up inside I want to scream");
-    $("#VNADSq8").text("Listening to music can sometimes bring back distressing memories");
-    $("#VNADSq9").text("Sometimes I get so stirred up by music that my emotions feel overwhelming ");
+    $("#VNADSq1").text("In the last 2 weeks I have had little interest or pleasure in doing things.");
+    $("#VNADSq2").text("In the last 2 weeks I have felt down, gloomy or hopeless.");
+    $("#VNADSq3").text("Often throughout my life I have felt down, depressed or hopeless.");
+    $("#VNADSq4").text("In the past 2 weeks I have felt like a failure or that I have let others down.");
+    $("#VNADSq5").text("Often throughout my life I have felt bad about myself, like I am a failure or have let others down.");
+    $("#VNADSq6").text("I often playback in my mind how I have acted in past situations.");
+    $("#VNADSq7").text("I often re-evaluate something I have done in the past.");
+    $("#VNADSq8").text("I often reflect on episodes of my life that I should no longer be concerned with.");
 }
 function loadCaregiverVNADS(){
     $(".VNADStype").text("Family version");
-    $("#VNADSq1").text("In the last 2 weeks he/she has had little interest or pleasure in doing things");
-    $("#VNADSq2").text("In the last 2 weeks he/she has felt down, depressed or hopeless");
-    $("#VNADSq3").text("Often throughout his/her life he/she has felt down, depressed or hopeless");
-    $("#VNADSq4").text("In the past 2 weeks he/she has found it hard to sit still");
-    $("#VNADSq5").text("He/she has often had periods where he/she felt so restless it was hard to sit still");
-    $("#VNADSq6").text("Sometimes he/she feel so upset that he/she hits or kicks something");
-    $("#VNADSq7").text("Sometimes he/she feels so stirred up that he/she screams");
-    $("#VNADSq8").text("Sometimes listening to music can bring back distressing memories to him/her");
-    $("#VNADSq9").text("Sometimes he/she experiences overwhelming emotions in response to music ");
+    $("#VNADSq1").text("In the last 2 weeks, he/she has had little interest or pleasure in doing things.");
+    $("#VNADSq2").text("In the last 2 weeks he/she has felt down, gloomy or hopeless.");
+    $("#VNADSq3").text("Often throughout his/her life he/she has felt down, depressed or hopeless.");
+    $("#VNADSq4").text("In the past 2 weeks he/she has felt like he/she is a failure or has let others down.");
+    $("#VNADSq5").text("Often throughout his/her life he/she has felt bad about him/herself, like he/she is a failure or have let others down.");
+    $("#VNADSq6").text("He/she often play back in his/her mind how he/she acted in a past situation.");
+    $("#VNADSq7").text("He/she often re-evaluates something he/she had done in the past.");
+    $("#VNADSq8").text("He/she often reflects on episodes of his/her life that he/she should no longer be concerned with.");
 }
 function loadPatientQ(){
     var arraySize;
