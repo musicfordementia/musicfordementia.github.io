@@ -473,33 +473,31 @@ function loadPatientVQ(){
     var arraySize;
     var questionArray = new Array();
     questionArray.push(
-        "In the last 2 weeks I have had little interest or pleasure in doing things",
-        "In the last 2 weeks I have felt down, depressed or hopeless",
-        "Often throughout my life I have felt down, depressed or hopeless",
-        "In the past 2 weeks I have felt so restless it is hard to sit still",
-        "I have often had periods in my life where I felt so restless it was hard to sit still",
-        "Sometimes I feel so upset that I want to hit or kick something",
-        "Sometimes I feel so stirred up inside I want to scream",
-        "Listening to music can sometimes bring back distressing memories",
-        "Sometimes I get so stirred up by music that my emotions feel overwhelming."
+        "In the last 2 weeks I have had little interest or pleasure in doing things.",
+        "In the last 2 weeks I have felt down, gloomy or hopeless.",
+        "Often throughout my life I have felt down, depressed or hopeless.",
+        "In the past 2 weeks I have felt like a failure or that I have let others down.",
+        "Often throughout my life I have felt bad about myself, like I am a failure or have let others down.",
+        "I often playback in my mind how I have acted in past situations.",
+        "I often re-evaluate something I have done in the past.",
+        "I often reflect on episodes of my life that I should no longer be concerned with."
     );
     for(arraySize = 0; arraySize < questionArray.length; arraySize++){
-        document.getElementById("vq"+arraySize.toString()).innerHTML = questionArray[arraySize];
+        document.getElementById('vq' + arraySize.toString()).innerHTML = questionArray[arraySize];
     }
 }
 function loadCaregiverVQ(){
     var arraySize;
     var questionArray = new Array();
     questionArray.push(
-        "In the last 2 weeks he/she has had little interest or pleasure in doing things",
-        "In the last 2 weeks he/she has felt down, depressed or hopeless",
-        "Often throughout his/her life he/she has felt down, depressed or hopeless",
-        "In the past 2 weeks he/she has found it hard to sit still",
-        "He/she has often had periods where he/she felt so restless it was hard to sit still",
-        "Sometimes he/she feel so upset that he/she hits or kicks something",
-        "Sometimes he/she feels so stirred up that he/she screams",
-        "Sometimes listening to music can bring back distressing memories to him/her",
-        "Sometimes he/she experiences overwhelming emotions in response to music."
+        "In the last 2 weeks, he/she has had little interest or pleasure in doing things.",
+        "In the last 2 weeks he/she has felt down, gloomy or hopeless.",
+        "Often throughout his/her life he/she has felt down, depressed or hopeless.",
+        "In the past 2 weeks he/she has felt like he/she is a failure or has let others down.",
+        "Often throughout his/her life he/she has felt bad about him/herself, like he/she is a failure or have let others down.",
+        "He/she often play back in his/her mind how he/she acted in a past situation.",
+        "He/she often re-evaluates something he/she had done in the past.",
+        "He/she often reflects on episodes of his/her life that he/she should no longer be concerned with."
     );
     for(arraySize = 0; arraySize < questionArray.length; arraySize++){
         document.getElementById("vq"+arraySize.toString()).innerHTML = questionArray[arraySize];
